@@ -164,7 +164,7 @@ shinyServer(function(input, output, session) {
   output$nameScenario = renderUI({
     if (reactives$nameScenarioFlag) {
       return(fluidRow(column(w = 4,textInput(inputId = "scenarioName",label = "Name new scenario",value = "")),
-                      column(w = 1, actionButton(inputId = "validateName",label = "Add")),
+                      column(w = 1, actionButton(inputId = "validateName",label = "Create")),
                       column(w = 1, radioButtons(inputId = "chooseC3C4", label = "Type",
                                                  choices = c("C3", "C4"), selected = "C3")),
                       column(w = 2, radioButtons(inputId = "chooseCurveType", label = "Curve",

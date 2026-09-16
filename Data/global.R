@@ -424,8 +424,8 @@ allVariables = names(c(RdescriptionEnvironment, RdescriptionOutput))
 curveVariables = list(PAR = seq(1,2000,25), 
                       Tleaf = seq(5,45,1), 
                       VPD = seq(0.5,3,0.5), 
-                      Ca = seq(0,2000,25), 
-                      O2 = seq(0,210,20))
+                      Ca = seq(25,2000,25), 
+                      O2 = seq(20,210,20))
 
 # Lower bound for values for all parameters. 
 # Parameters with NA for a value are dealt with in a special way (due to linear constraints on combination of values)

@@ -24,7 +24,7 @@ shinyUI(
         actionButton(inputId = "renameScenario", label = "Rename"),
         actionButton(inputId = "resetScenario", label = "Reset"),
         actionButton(inputId = "removeAllScenarios", label = "Remove all"),
-        actionButton(inputId = "uploadScenario", label = "Open"),
+        actionButton(inputId = "uploadScenario", label = "Load"),
         div(style="display:inline-block", selectInput(inputId = "listManagedScenarios", 
                     label = NULL, choices = "A-PAR C3", selected = "A-PAR C3", selectize = F))
       ),
